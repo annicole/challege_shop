@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="5" time="2.728">
+  <testsuite name="undefined" errors="0" failures="5" skipped="0" timestamp="2022-03-16T16:04:43" time="2.102" tests="5">
+    <testcase classname=" Should Add item to cart" name=" Should Add item to cart" time="0.056">
+      <failure>Error: expect(received).toBeFalsy()
+
+Received: &lt;button class=&quot;x-small danger&quot; data-testid=&quot;btn-item-remove&quot;&gt;Remove&lt;/button&gt;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:85:31)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+    <testcase classname=" Should Calculate correct price before selecting coupon" name=" Should Calculate correct price before selecting coupon" time="0.043">
+      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;cart-item-0&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      &lt;h8k-navbar
+        header=&quot;HackerShop&quot;
+      /&gt;
+      &lt;div
+        class=&quot;layout-row shop-component&quot;
+      &gt;
+        &lt;div
+          class=&quot;layout-row wrap justify-content-center flex-70 app-product-list&quot;
+        &gt;
+          &lt;section
+            class=&quot;w-30&quot;
+            data-testid=&quot;product-item-0&quot;
+          &gt;
+            &lt;div
+              class=&quot;card ma-16&quot;
+            &gt;
+              &lt;img
+                alt=&quot;Your Cart&quot;
+                class=&quot;d-inline-block align-top product-image&quot;
+                src=&quot;/images/items/cap.png&quot;
+              /&gt;
+              &lt;div
+                class=&quot;card-text pa-4&quot;
+              &gt;
+                &lt;h5
+                  class=&quot;ma-0 text-center&quot;
+                &gt;
+                  Cap
+                &lt;/h5&gt;
+                &lt;p
+                  class=&quot;ma-0 mt-8 text-center&quot;
+                &gt;
+                  $
+                  10
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;card-actions justify-content-center pa-4&quot;
+              &gt;
+                &lt;button
+                  class=&quot;x-small outlined&quot;
+                  data-testid=&quot;btn-item-add&quot;
+                &gt;
+                  Add To Cart
+                &lt;/button&gt;
+                &lt;button
+                  class=&quot;x-small danger&quot;
+                  data-testid=&quot;btn-item-remove&quot;
+                &gt;
+                  Remove
+                &lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/section&gt;
+          &lt;section
+            class=&quot;w-30&quot;
+            data-testid=&quot;product-item-1&quot;
+          &gt;
+            &lt;div
+              class=&quot;card ma-16&quot;
+            &gt;
+              &lt;img
+                alt=&quot;Your Cart&quot;
+                class=&quot;d-inline-block align-top product-image&quot;
+                src=&quot;/images/items/handbag.png&quot;
+              /&gt;
+              &lt;div
+                class=&quot;card-text pa-4&quot;
+              &gt;
+                &lt;h5
+                  class=&quot;ma-0 text-center&quot;
+                &gt;
+                  HandBag
+                &lt;/h5&gt;
+                &lt;p
+                  class=&quot;ma-0 mt-8 text-center&quot;
+                &gt;
+                  $
+                  30
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;card-actions justify-content-center pa-4&quot;
+              &gt;
+                &lt;button
+                  class=&quot;x-small outlined&quot;
+                  data-testid=&quot;btn-item-add&quot;
+                &gt;
+                  Add To Cart
+                &lt;/button&gt;
+                &lt;button
+                  class=&quot;x-small danger&quot;
+                  data-testid=&quot;btn-item-remove&quot;
+                &gt;
+                  Remove
+                &lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/section&gt;
+          &lt;section
+            class=&quot;w-30&quot;
+            data-testid=&quot;product-item-2&quot;
+          &gt;
+            &lt;div
+              class=&quot;card ma-16&quot;
+            &gt;
+              &lt;img
+                alt=&quot;Your Cart&quot;
+                class=&quot;d-inline-block align-top product-image&quot;
+                src=&quot;/images/items/shirt.png&quot;
+              /&gt;
+              &lt;div
+                class=&quot;card-text pa-4&quot;
+              &gt;
+                &lt;h5
+                  class=&quot;ma-0 text-center&quot;
+                &gt;
+                  Shirt
+                &lt;/h5&gt;
+                &lt;p
+                  class=&quot;ma-0 mt-8 text-center&quot;
+                &gt;
+                  $
+                  30
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;card-actions justify-content-center pa-4&quot;
+              &gt;
+                &lt;button
+                  class=&quot;x-small outlined&quot;
+                  data-testid=&quot;btn-item-add&quot;
+                &gt;
+                  Add To Cart
+                &lt;/button&gt;
+                &lt;button
+                  class=&quot;x-small danger&quot;
+                  data-testid=&quot;btn-item-remove&quot;
+                &gt;
+                  Remove
+                &lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/section&gt;
+          &lt;section
+            class=&quot;w-30&quot;
+            data-testid=&quot;product-item-3&quot;
+          &gt;
+            &lt;div
+              class=&quot;card ma-16&quot;
+            &gt;
+              &lt;img
+                alt=&quot;Your Cart&quot;
+                class=&quot;d-inline-block align-top product-image&quot;
+                src=&quot;/images/items/shoe.png&quot;
+              /&gt;
+              &lt;div
+                class=&quot;card-text pa-4&quot;
+              &gt;
+                &lt;h5
+                  class=&quot;ma-0 text-center&quot;
+                &gt;
+                  Shoe
+                &lt;/h5&gt;
+                &lt;p
+                  class=&quot;ma-0 mt-8 text-center&quot;
+                &gt;
+                  $
+                  50
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;card-actions justify-content-center pa-4&quot;
+              &gt;
+                &lt;button
+                  class=&quot;x-small outlined&quot;
+                  data-testid=&quot;btn-item-add&quot;
+                &gt;
+                  Add To Cart
+                &lt;/button&gt;
+                &lt;button
+                  class=&quot;x-small danger&quot;
+                  data-testid=&quot;btn-item-remove&quot;
+                &gt;
+                  Remove
+                &lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/section&gt;
+          &lt;section
+            class=&quot;w-30&quot;
+            data-testid=&quot;product-item-4&quot;
+          &gt;
+            &lt;div
+              class=&quot;card ma-16&quot;
+            &gt;
+              &lt;img
+                alt=&quot;Your Cart&quot;
+                class=&quot;d-inline-block align-top product-image&quot;
+                src=&quot;/images/items/pant.png&quot;
+              /&gt;
+              &lt;div
+                class=&quot;card-text pa-4&quot;
+              &gt;
+                &lt;h5
+                  class=&quot;ma-0 text-center&quot;
+                &gt;
+                  Pant
+                &lt;/h5&gt;
+                &lt;p
+                  class=&quot;ma-0 mt-8 text-center&quot;
+                &gt;
+                  $
+                  40
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;card-actions justify-content-center pa-4&quot;
+              &gt;
+                &lt;button
+                  class=&quot;x-small outlined&quot;
+                  data-testid=&quot;btn-item-add&quot;
+                &gt;
+                  Add To Cart
+                &lt;/button&gt;
+                &lt;button
+                  class=&quot;x-small danger&quot;
+                  data-testid=&quot;btn-item-remove&quot;
+                &gt;
+                  Remove
+                &lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/section&gt;
+          &lt;section
+            class=&quot;w-30&quot;
+            data-testid=&quot;product-item-5&quot;
+          &gt;
+            &lt;div
+              class=&quot;card ma-16&quot;
+            &gt;
+              &lt;img
+                alt=&quot;Your Cart&quot;
+                class=&quot;d-inline-block align-top product-image&quot;
+                src=&quot;/images/items/slipper.png&quot;
+              /&gt;
+              &lt;div
+                class=&quot;card-text pa-4&quot;
+              &gt;
+                &lt;h5
+                  class=&quot;ma-0 text-center&quot;
+                &gt;
+                  Slipper
+                &lt;/h5&gt;
+                &lt;p
+                  class=&quot;ma-0 mt-8 text-center&quot;
+                &gt;
+                  $
+                  20
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;card-actions justify-content-center pa-4&quot;
+              &gt;
+                &lt;button
+                  class=&quot;x-small outlined&quot;
+                  data-testid=&quot;btn-item-add&quot;
+                &gt;
+                  Add To Cart
+                &lt;/button&gt;
+                &lt;button
+                  class=&quot;x-small danger&quot;
+                  data-testid=&quot;btn-item-remove&quot;
+                &gt;
+                  Remove
+                &lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/section&gt;
+        &lt;/div&gt;
+        &lt;div
+          class=&quot;card outlined my-16 mr-25 flex-30&quot;
+        &gt;
+          &lt;section
+            class=&quot;layout-row align-items-center justify-content-center px-16&quot;
+          &gt;
+            &lt;h4&gt;
+              Your Cart
+            &lt;/h4&gt;
+          &lt;/section&gt;
+          &lt;div
+            class=&quot;divider&quot;
+          /&gt;
+          &lt;table&gt;
+            &lt;thead&gt;
+              &lt;tr&gt;
+                &lt;th /&gt;
+                &lt;th&gt;
+                  Item
+                &lt;/th&gt;
+                &lt;th
+                  class=&quot;numeric&quot;
+                &gt;
+                  Quantity
+                &lt;/th&gt;
+                &lt;th
+                  class=&quot;numeric&quot;
+                &gt;
+                  Price
+                &lt;/th&gt;
+              &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody /&gt;
+          &lt;/table&gt;
+          &lt;div
+            class=&quot;layout-row justify-content-between align-items-center px-8 mx-12&quot;
+          &gt;
+            &lt;h5&gt;
+              Select Coupon
+            &lt;/h5&gt;
+            &lt;select
+              class=&quot;coupon-select&quot;
+              data-testid=&quot;cart-coupon&quot;
+            &gt;
+              &lt;option
+                value=&quot;0&quot;
+              &gt;
+                None
+              &lt;/option&gt;
+              &lt;option
+                value=&quot;10&quot;
+              &gt;
+                OFF10
+              &lt;/option&gt;
+              &lt;option
+                value=&quot;20&quot;
+              &gt;
+                OFF20
+              &lt;/option&gt;
+            &lt;/select&gt;
+          &lt;/div&gt;
+          &lt;ul
+            class=&quot;bordered inset ma-0 px-8 mt-30&quot;
+          &gt;
+            &lt;li
+              class=&quot;layout-row justify-content-between py-12 caption font-weight-light&quot;
+            &gt;
+              &lt;span&gt;
+                Subtotal
+              &lt;/span&gt;
+              &lt;span
+                data-testid=&quot;cart-subtotal&quot;
+              &gt;
+                $
+                0
+              &lt;/span&gt;
+            &lt;/li&gt;
+            &lt;li
+              class=&quot;layout-row justify-content-between py-12 caption font-weight-light&quot;
+            &gt;
+              &lt;span&gt;
+                Discount (-)
+              &lt;/span&gt;
+              &lt;span
+                class=&quot;discount&quot;
+                data-testid=&quot;cart-discount&quot;
+              &gt;
+                $
+                0
+              &lt;/span&gt;
+            &lt;/li&gt;
+            &lt;li
+              class=&quot;layout-row justify-content-between py-12 font-weight-bold&quot;
+            &gt;
+              &lt;span&gt;
+                Total
+              &lt;/span&gt;
+              &lt;span
+                data-testid=&quot;cart-total&quot;
+              &gt;
+                $
+                0
+              &lt;/span&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/projects/challenge/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:92:38
+    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:64:17
+    at getByTestId (/projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:108:19)
+    at getCartItem (/projects/challenge/src/App.test.js:39:26)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:111:16)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" Should calculate discounts on selecting a coupon" name=" Should calculate discounts on selecting a coupon" time="0.019">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 5
+Received: 0
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:140:34)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" Should recalculate prices when item is removed from cart" name=" Should recalculate prices when item is removed from cart" time="0.017">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 6
+Received: 0
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:155:34)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" Should recalculate prices when coupon is changed" name=" Should recalculate prices when coupon is changed" time="0.018">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 6
+Received: 0
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:182:34)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
